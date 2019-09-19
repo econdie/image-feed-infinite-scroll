@@ -13,31 +13,29 @@ The server will return a stream of new line delimited JSON http://ndjson.org/ . 
 
 ### Running the server
 Clone this repository and navigate to the server directory. Run the following commands.
-*Node & NPM must be installed on your system.
+*Node & NPM must be installed on your system. The server code was tested with Node version 8.15.0 and NPM 6.3.0
 
 Install Dependencies
 ```
 npm install
 ```
-
 Run the Server
 ```
 npm run start
 ```
 The server will run on http://localhost:3001 . To call the server API use http://localhost:3001/feed .
 The API will return 20 items per page. To specify the page use the page parameter like so http://localhost:3001/feed?page=1
-The number of feed items will be randomly generated.
 
 ### Requirements 
-
  - Create a front end application to display the feed of images returned from the server
  - The feed should be displayed as an infinite scroll 
  - When the user scrolls to the bottom of the feed a loading icon will appear while more items are being fetched.
- - When there are no more results display a message to inform the user that they have reached the end of the feed.
+ - When there are no more results, display a message to inform the user that they have reached the end of the feed.
  - The results from the server should be displayed once they arrive in the stream. For example 
    when calling the API a feed object is returned, the image and caption of that object should be displayed in the UI immediately.
-   do not call the API and wait the stream to close before displaying the the results in the UI.
- - Create instructions on how to run the app.
+   Do not call the API and wait for the stream to close before displaying the the results in the UI.
+ - The design of the UX/UI can be kept simple, feel free to use CSS/Component libraries.
+ - Create a file called instructions.txt in root of the project that describes how to run your application.
 
 ### Review Process 
 We will review this assessment based on the following criteria
@@ -47,3 +45,12 @@ We will review this assessment based on the following criteria
  - How the code and application are tested.
  - Use of best practices and industry standards. 
  - The app should render correctly in Chrome and Mobile (using chrome dev tools)
+
+### Submission Instructions
+
+1. Clone the repository.
+2. Complete your project as described above within your local repository.
+3. Ensure everything you want to commit is committed.
+4. Either
+    * Create a git bundle: `git bundle create your_name.bundle --all` and email the bundle file to dev.careers@chisel.ai, OR
+    * Host the repository on your own GitHub or Bitbucket account, and send / share the link with dev.careers@chisel.ai
