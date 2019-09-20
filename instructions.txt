@@ -1,4 +1,4 @@
-1. Make sure the provided API server is running (cd ./server -> npm install -> npm run start )
-2. Start the front end application (cd ./www -> yarn install)
+1. Make sure the provided API server is running (cd ./server -> npm install -> npm run start)
+2. Start the front end application (cd ./www -> yarn install -> npm run buildAndStart)
 3. Front end app should be running on http://localhost:3000 which will be the page with the requested functionality implemented
 4. Some basic tests were added (cd ./www -> npm run test)
