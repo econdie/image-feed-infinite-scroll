@@ -1,0 +1,96 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`ImageGrid Snapshot matches 1`] = `
+<div
+  className="card-deck"
+>
+  <div
+    className="container"
+  >
+    <div>
+      <div
+        className="row"
+      >
+        <div
+          className="my-2 col-sm-12 col-md-6 col-lg-4 col-xl-4"
+        >
+          <div
+            className="card"
+          >
+            <img
+              className="card-img-top"
+              src="https://picsum.photos/id/80/200"
+            />
+            <div
+              className="card-body"
+            >
+              <p
+                className="card-text"
+              >
+                Exercitationem eum impedit et et quam debitis.
+              </p>
+            </div>
+          </div>
+        </div>
+        <div
+          className="my-2 col-sm-12 col-md-6 col-lg-4 col-xl-4"
+        >
+          <div
+            className="card"
+          >
+            <img
+              className="card-img-top"
+              src="https://picsum.photos/id/81/200"
+            />
+            <div
+              className="card-body"
+            >
+              <p
+                className="card-text"
+              >
+                Id autem rerum et.
+              </p>
+            </div>
+          </div>
+        </div>
+        <div
+          className="my-2 col-sm-12 col-md-6 col-lg-4 col-xl-4"
+        >
+          <div
+            className="card"
+          >
+            <img
+              className="card-img-top"
+              src="https://picsum.photos/id/82/200"
+            />
+            <div
+              className="card-body"
+            >
+              <p
+                className="card-text"
+              >
+                Id doloribus ipsam eum aliquam excepturi repellendus eum officiis odio.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div
+        className="text-center my-4"
+      >
+        <div
+          className="spinner-border text-primary"
+          role="status"
+        >
+          <span
+            className="sr-only"
+          >
+            Loading...
+          </span>
+        </div>
+         Loading..
+      </div>
+    </div>
+  </div>
+</div>
+`;

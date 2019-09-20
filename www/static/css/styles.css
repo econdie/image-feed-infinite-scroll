@@ -1,0 +1,46 @@
+.hero {
+  width: 100%;
+  color: #333;
+}
+.title {
+  margin: 0;
+  width: 100%;
+  padding-top: 80px;
+  line-height: 1.15;
+  font-size: 48px;
+}
+.title,
+.description {
+  text-align: center;
+}
+.row {
+  max-width: 880px;
+  margin: 80px auto 40px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+.mw200 {
+  max-width: 200px !important;
+}
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, Avenir Next, Avenir, Helvetica,
+    sans-serif;
+}
+ul {
+  display: flex;
+  justify-content: space-between;
+}
+nav > ul {
+  padding: 4px 16px;
+}
+li {
+  display: flex;
+  padding: 6px 8px;
+}
+a {
+  color: #067df7;
+  text-decoration: none;
+  font-size: 13px;
+}
